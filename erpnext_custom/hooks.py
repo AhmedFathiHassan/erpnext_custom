@@ -145,6 +145,19 @@ app_license = "mit"
 # 	}
 # }
 
+
+
+
+
+doc_events = {
+ 	"Employee": {
+ 		"validate": "erpnext_custom.erpnext_custom.doc_event.employee_event.validate_reason_for_leaving"
+ 	}
+ }
+
+
+
+
 # Scheduled Tasks
 # ---------------
 
